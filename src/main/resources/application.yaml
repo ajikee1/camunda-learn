@@ -1,0 +1,13 @@
+# https://docs.camunda.org/get-started/spring-boot/configuration/
+
+# This configuration will result in the following:
+# Admin user “demo” with the provided password and first name will be created.
+# Default filter with the name “All tasks” will be created for Tasklist.
+
+camunda.bpm:
+  admin-user:
+    id: demo
+    password: demo
+    firstName: Demo
+  filter:
+    create: All tasks
